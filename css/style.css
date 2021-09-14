@@ -11,7 +11,7 @@
     width: 100%;
     height: 80px;
     background-color: white;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
 
   .logo-pic{
@@ -35,19 +35,104 @@
   
   .container-top{
     width: 100%;
-    height: 100px;
+    height: 50px;
     margin: auto;
-    margin-bottom: 3px;
-    background-color: red;
+    margin-bottom: 8px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 5px 5px 0 0;
+
     
   }
-  
+
+  .button-top{
+    font-size: 15px;
+    width: 90px;
+    margin: 20px;
+    background-color: #53b3f2;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+
+  }
+
+  .button-top.white{
+    width: 100px;
+    color: lightgray;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-left: -20px;
+  }
+
+  .button-top.blue{
+    color: white;
+  }
+
   .container-bottom{
     width: 100%;
-    height: 500px;
+    height: 100%;
     margin: auto;
     margin-bottom: 20px;
-    background-color:violet;
+    background-color: white;
     
   }
   
+.arrow-down{
+  font-size: 45px;
+  padding: 10px;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: super;
+}
+
+.circle{
+  padding: 20px;
+  color: lightgreen;
+}
+
+h2{
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.button-bottom{
+  width: 80px;
+  color: white;
+  background-color: #53b3f2;
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+}
+
+.circle.red{
+  color: red;
+}
+
+.button-bottom.q1{
+  background-color:purple;
+}
+
+.circle.red{
+  color: red;
+}
+
+.button-bottom.green{
+  background-color: lightgreen;
+}
+
+.new-task{
+  margin-bottom: 30px;
+}
+
+.button-bottom.orange{
+  background-color: orange;
+}
+
+.today.upcoming{
+  margin-top: 30px;
+
+}
